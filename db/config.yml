@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: SQL_ASCII
+  host: localhost
+  username: root
+  password: root1234
+ 
+development:
+  <<: *default
+  database: development_test
+
+test: &test
+  <<: *default
+  database: test_test
+
+production:
+  <<: *default
+  database: production_test
