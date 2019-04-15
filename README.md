@@ -4,7 +4,7 @@ ActiveRecord is a gem that is part of Ruby on Rails. It is the ORM, i.e. the lib
 
 Things you may want to cover:
 
-* Ruby version = 
+* Ruby version = 2.2.4
 
 * Install gem
 
