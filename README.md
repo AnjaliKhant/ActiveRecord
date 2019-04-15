@@ -16,19 +16,23 @@ Things you may want to cover:
 * Database creation
 
   Decide your database i have used postgresql database.
+  
             gem pg
       
   Create your databse 
+  
             bundle exec rake db:create
 
 * Database initialization
       
   Create first migration
+  
             bundle exec rake db:new_migration[table_name]   
 
 * How to run the test suite
 
   for testing run main.rb
+  
             bundle exec ruby app/main.rb 
 
 
